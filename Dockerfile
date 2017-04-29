@@ -13,6 +13,7 @@ RUN apt-get update && \
     cd nodeapp && \
     npm install && \
     npm install async --save && \
+    npm install jsonwebtoken --save && \
     npm install sequelize --save && \
     npm install js-yaml --save && \
     npm install fs --save && \ 

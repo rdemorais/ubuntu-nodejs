@@ -14,6 +14,7 @@ RUN apt-get update && \
     npm install && \
     npm install async --save && \
     npm install jsonwebtoken --save && \
+    npm install swagger-jsdoc --save && \
     npm install sequelize --save && \
     npm install js-yaml --save && \
     npm install fs --save && \ 
